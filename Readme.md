@@ -3,5 +3,6 @@
 Chrome extension to send any article to your kindle.
 
 # TODO
-- [] make popup more interactive
-- [] ask user for api and email at begaining only
+- [ ] make popup more interactive
+- [ ] better css on popup
+- [ ] ask user for api and email at beginning only
