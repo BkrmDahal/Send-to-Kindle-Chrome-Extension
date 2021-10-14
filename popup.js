@@ -15,7 +15,8 @@ function sendData() {
     //get url and other detail
     var tabURL = tabs[0].url;
     var email = document.getElementById('email').value
-    var SERVER_URL = 'https://webhook.site/0e185470-c8d4-4de0-b384-71746486e3ab' // need to chnage this to backend api
+    var SERVER_URL = 'https://8000-lavender-constrictor-j4nwm0bh.ws-us17.gitpod.io/api/v1/send/kindle/' // need to chnage this to backend api
+    
 
     // We have to convert the function to a string
     const scriptToExec = `(${scrapeThePage})()`;
